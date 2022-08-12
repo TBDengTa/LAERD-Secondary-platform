@@ -1,0 +1,140 @@
+.column {
+    float: left;
+}
+
+.column.side {
+    width: 20%;
+    height: 100%;
+}
+
+.column.middle {
+    width: 80%;
+    color: darkturquoise;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color:  #fcd337;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+h1.h1 {
+    text-align: center;
+    color: blue;
+    text-shadow: 0px 0px 30px red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+p.p1 {
+    text-align: center;
+    color: #555;
+    font-size: 2px;
+    line-height: 20px;
+}
+
+.column_2 {
+    float: left;
+    width: 50%;
+}
+
+h1.h2 {
+    text-align: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p {
+    color: black;
+    text-indent: 2em;
+}
+
+p.p2 {
+    font-size: 2px;
+    color: cadetblue;
+    text-align: center;
+}
+
+img.LAPD_Cadet_Training {
+    border: 3px solid skyblue;
+}
+
+div.documents {
+    text-align: center;
+}
+
+a.rd {
+    background-color: rgb(0, 225, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+div.Navigation_bar {
+    background-color: #fcd337; 
+    border-radius: 10px;
+}
+
+p.padding {
+    color: #fcd337;
+    font-size: 1px;
+    text-align: center;
+}
+
+div.times {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+iframe.weather {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 255, 242);
+    border-radius: 10px;
+    color: #000;
+}
+
+iframe.Video {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
